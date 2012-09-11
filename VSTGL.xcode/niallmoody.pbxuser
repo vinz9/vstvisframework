@@ -1,0 +1,1015 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 = {
+		activeBuildStyle = 4F9091AD011F3BD104CA0E50;
+		activeExecutable = D24FC7E509A8B80B00B7BDA7;
+		activeTarget = 8D01CCC60486CAD60068D4B7;
+		addToTargets = (
+			8D01CCC60486CAD60068D4B7,
+		);
+		codeSenseManager = D25BF48B098BA69400D059FD;
+		executables = (
+			D24FC7E509A8B80B00B7BDA7,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					305.7974,
+					163.5835,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					278,
+					20,
+					54,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					240,
+					56,
+					20,
+					56,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 163184639;
+			PBXPrepackagedSmartGroups_v2 = (
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					activationKey = OldTargetSmartGroup;
+					clz = PBXTargetSmartGroup;
+					description = "Displays all targets of the project.";
+					globalID = 1C37FABC04509CD000000102;
+					name = Targets;
+					preferences = {
+						image = Targets;
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = PBXTargetSmartGroup2;
+					description = "Displays all targets of the project as well as nested build phases.";
+					globalID = 1C37FBAC04509CD000000102;
+					name = Targets;
+					preferences = {
+						image = Targets;
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = PBXExecutablesSmartGroup;
+					description = "Displays all executables of the project.";
+					globalID = 1C37FAAC04509CD000000102;
+					name = Executables;
+					preferences = {
+						image = Executable;
+					};
+				},
+				{
+					" PBXTransientLocationAtTop " = bottom;
+					absolutePathToBundle = "";
+					clz = PBXErrorsWarningsSmartGroup;
+					description = "Displays files with errors or warnings.";
+					globalID = 1C08E77C0454961000C914BD;
+					name = "Errors and Warnings";
+					preferences = {
+						fnmatch = "";
+						image = WarningsErrors;
+						recursive = 1;
+						regex = "";
+						root = "<PROJECT>";
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = PBXFilenameSmartGroup;
+					description = "Filters items in a given group (potentially recursively) based on matching the name with the regular expression of the filter.";
+					globalID = 1CC0EA4004350EF90044410B;
+					name = "Implementation Files";
+					preferences = {
+						canSave = 1;
+						fnmatch = "";
+						image = SmartFolder;
+						isLeaf = 0;
+						recursive = 1;
+						regex = "?*\\.[mcMC]";
+						root = "<PROJECT>";
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = PBXFilenameSmartGroup;
+					description = "This group displays Interface Builder NIB Files.";
+					globalID = 1CC0EA4004350EF90041110B;
+					name = "NIB Files";
+					preferences = {
+						canSave = 1;
+						fnmatch = "*.nib";
+						image = SmartFolder;
+						isLeaf = 0;
+						recursive = 1;
+						regex = "";
+						root = "<PROJECT>";
+					};
+				},
+				{
+					PBXTransientLocationAtTop = no;
+					absolutePathToBundle = "";
+					clz = PBXFindSmartGroup;
+					description = "Displays Find Results.";
+					globalID = 1C37FABC05509CD000000102;
+					name = "Find Results";
+					preferences = {
+						image = spyglass;
+					};
+				},
+				{
+					PBXTransientLocationAtTop = no;
+					absolutePathToBundle = "";
+					clz = PBXBookmarksSmartGroup;
+					description = "Displays Project Bookmarks.";
+					globalID = 1C37FABC05539CD112110102;
+					name = Bookmarks;
+					preferences = {
+						image = Bookmarks;
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = XCSCMSmartGroup;
+					description = "Displays files with interesting SCM status.";
+					globalID = E2644B35053B69B200211256;
+					name = SCM;
+					preferences = {
+						image = PBXRepository;
+						isLeaf = 0;
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = PBXSymbolsSmartGroup;
+					description = "Displays all symbols for the project.";
+					globalID = 1C37FABC04509CD000100104;
+					name = "Project Symbols";
+					preferences = {
+						image = ProjectSymbols;
+						isLeaf = 1;
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = PBXFilenameSmartGroup;
+					description = "Filters items in a given group (potentially recursively) based on matching the name with the regular expression of the filter.";
+					globalID = PBXTemplateMarker;
+					name = "Simple Filter SmartGroup";
+					preferences = {
+						canSave = 1;
+						fnmatch = "*.nib";
+						image = SmartFolder;
+						isLeaf = 0;
+						recursive = 1;
+						regex = "";
+						root = "<PROJECT>";
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = PBXFilenameSmartGroup;
+					description = "Filters items in a given group (potentially recursively) based on matching the name with the regular expression of the filter.";
+					globalID = PBXTemplateMarker;
+					name = "Simple Regular Expression SmartGroup";
+					preferences = {
+						canSave = 1;
+						fnmatch = "";
+						image = SmartFolder;
+						isLeaf = 0;
+						recursive = 1;
+						regex = "?*\\.[mcMC]";
+						root = "<PROJECT>";
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					clz = XDDesignSmartGroup;
+					description = "Displays Xdesign models";
+					globalID = 2E4A936305E6979E00701470;
+					name = Design;
+					preferences = {
+						image = Design;
+						isLeaf = 0;
+					};
+				},
+			);
+			PBXWorkspaceStateSaveDate = 163184639;
+		};
+		perUserProjectItems = {
+			D223468709BA002200B2AB57 = D223468709BA002200B2AB57;
+			D223468809BA002200B2AB57 = D223468809BA002200B2AB57;
+			D248761A099FA0ED0041400D = D248761A099FA0ED0041400D;
+			D248761B099FA0ED0041400D = D248761B099FA0ED0041400D;
+			D24C025209B9F40200155290 = D24C025209B9F40200155290;
+			D24C025409B9F40200155290 = D24C025409B9F40200155290;
+			D24C025509B9F40200155290 = D24C025509B9F40200155290;
+			D24C025609B9F40200155290 = D24C025609B9F40200155290;
+			D24C025809B9F40200155290 = D24C025809B9F40200155290;
+			D24C028309B9F5DF00155290 = D24C028309B9F5DF00155290;
+			D24C028809B9F7DE00155290 = D24C028809B9F7DE00155290;
+			D24C028D09B9F7DE00155290 = D24C028D09B9F7DE00155290;
+			D24C028E09B9F7DE00155290 = D24C028E09B9F7DE00155290;
+			D24C53C3098BC3180088BB60 = D24C53C3098BC3180088BB60;
+			D24C53CA098BC3970088BB60 = D24C53CA098BC3970088BB60;
+			D24C53D5098BC4300088BB60 = D24C53D5098BC4300088BB60;
+			D24C5409098BCC0D0088BB60 = D24C5409098BCC0D0088BB60;
+			D24C5458098BD2DC0088BB60 = D24C5458098BD2DC0088BB60;
+			D24D0DCC098EA901007DDB00 = D24D0DCC098EA901007DDB00;
+			D24D0DF6098EAEB5007DDB00 = D24D0DF6098EAEB5007DDB00;
+			D24FC76A09A8ACF600B7BDA7 = D24FC76A09A8ACF600B7BDA7;
+			D24FC76D09A8ACF600B7BDA7 = D24FC76D09A8ACF600B7BDA7;
+			D24FC76E09A8ACF600B7BDA7 = D24FC76E09A8ACF600B7BDA7;
+			D24FC7B609A8B3CA00B7BDA7 = D24FC7B609A8B3CA00B7BDA7;
+			D24FC7B909A8B3CA00B7BDA7 = D24FC7B909A8B3CA00B7BDA7;
+			D253AE4709ACF75700CFA583 = D253AE4709ACF75700CFA583;
+			D25BF4B7098BA7FE00D059FD = D25BF4B7098BA7FE00D059FD;
+			D25BF4B9098BA7FE00D059FD = D25BF4B9098BA7FE00D059FD;
+			D25BF4E2098BA93200D059FD = D25BF4E2098BA93200D059FD;
+			D25BF4E5098BA93200D059FD = D25BF4E5098BA93200D059FD;
+			D25BF4E6098BA93200D059FD = D25BF4E6098BA93200D059FD;
+			D25BF4E8098BA93200D059FD = D25BF4E8098BA93200D059FD;
+			D25BF4E9098BA93200D059FD = D25BF4E9098BA93200D059FD;
+			D25BF509098BAB5500D059FD = D25BF509098BAB5500D059FD;
+			D25BF50A098BAB5500D059FD = D25BF50A098BAB5500D059FD;
+			D25BF50B098BAB5500D059FD = D25BF50B098BAB5500D059FD;
+			D25BF51C098BACF700D059FD = D25BF51C098BACF700D059FD;
+			D25BF51D098BACF700D059FD = D25BF51D098BACF700D059FD;
+			D25BF51E098BACF700D059FD = D25BF51E098BACF700D059FD;
+			D25BF520098BACF700D059FD = D25BF520098BACF700D059FD;
+			D25BF522098BACF700D059FD = D25BF522098BACF700D059FD;
+			D25BF52C098BACF700D059FD = D25BF52C098BACF700D059FD;
+			D25BF52E098BACF700D059FD = D25BF52E098BACF700D059FD;
+			D25BF530098BACF700D059FD = D25BF530098BACF700D059FD;
+		};
+		sourceControlManager = D25BF48A098BA69400D059FD;
+		userBuildSettings = {
+		};
+	};
+	8D01CCC60486CAD60068D4B7 = {
+		activeExec = 0;
+	};
+	D223468709BA002200B2AB57 = {
+		fRef = D25BF4AE098BA7E400D059FD;
+		isa = PBXTextBookmark;
+		name = "VstPlugin.h: 32";
+		rLen = 0;
+		rLoc = 1518;
+		rType = 0;
+		vrLen = 952;
+		vrLoc = 930;
+	};
+	D223468809BA002200B2AB57 = {
+		fRef = D25BF4A9098BA7E400D059FD;
+		isa = PBXTextBookmark;
+		name = "\tclassId = CFStringCreateWithCString(NULL, tempstr, 0);\n\n";
+		rLen = 57;
+		rLoc = 4707;
+		rType = 0;
+		vrLen = 631;
+		vrLoc = 4337;
+	};
+	D2487615099FA0DC0041400D = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = juce_mac_Windowing.cpp;
+		path = /Users/niallmoody/Programming/juce/build/macosx/platform_specific_code/juce_mac_Windowing.cpp;
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	D248761A099FA0ED0041400D = {
+		fRef = D2487615099FA0DC0041400D;
+		isa = PBXTextBookmark;
+		name = "GLint bufferRect[4];\n\n    bufferRect[0] = owner->getScreenX() - topComp->getScreenX();\n    bufferRect[1] = topComp->getHeight() - (owner->getHeight() + owner->getScreenY() - topComp->getScreenY());\n    bufferRect[2] = owner->getWidth();\n    bufferRect[3] = owner->getHeight();\n\n    aglSetInteger (oc->renderContext, AGL_BUFFER_RECT, bufferRect);\n    aglEnable (oc->renderContext, AGL_BUFFER_RECT);";
+		rLen = 397;
+		rLoc = 57420;
+		rType = 0;
+		vrLen = 1131;
+		vrLoc = 56802;
+	};
+	D248761B099FA0ED0041400D = {
+		fRef = D2487615099FA0DC0041400D;
+		isa = PBXTextBookmark;
+		name = "GLint bufferRect[4];\n\n    bufferRect[0] = owner->getScreenX() - topComp->getScreenX();\n    bufferRect[1] = topComp->getHeight() - (owner->getHeight() + owner->getScreenY() - topComp->getScreenY());\n    bufferRect[2] = owner->getWidth();\n    bufferRect[3] = owner->getHeight();\n\n    aglSetInteger (oc->renderContext, AGL_BUFFER_RECT, bufferRect);\n    aglEnable (oc->renderContext, AGL_BUFFER_RECT);";
+		rLen = 397;
+		rLoc = 57420;
+		rType = 0;
+		vrLen = 1131;
+		vrLoc = 56802;
+	};
+	D24C025209B9F40200155290 = {
+		fRef = D25BF4AD098BA7E400D059FD;
+		isa = PBXTextBookmark;
+		name = "VstPlugin.cpp: 3";
+		rLen = 0;
+		rLoc = 153;
+		rType = 0;
+		vrLen = 1575;
+		vrLoc = 0;
+	};
+	D24C025409B9F40200155290 = {
+		fRef = D25BF4AC098BA7E400D059FD;
+		isa = PBXTextBookmark;
+		name = "VSTGLTimer.h: 33";
+		rLen = 0;
+		rLoc = 1495;
+		rType = 0;
+		vrLen = 880;
+		vrLoc = 2490;
+	};
+	D24C025509B9F40200155290 = {
+		fRef = D25BF4AB098BA7E400D059FD;
+		isa = PBXTextBookmark;
+		name = "VSTGLTimer.cpp: 3";
+		rLen = 0;
+		rLoc = 160;
+		rType = 0;
+		vrLen = 618;
+		vrLoc = 3936;
+	};
+	D24C025609B9F40200155290 = {
+		fRef = D25BF4A9098BA7E400D059FD;
+		isa = PBXTextBookmark;
+		name = getWindowRef;
+		rLen = 12;
+		rLoc = 21105;
+		rType = 0;
+		vrLen = 864;
+		vrLoc = 20718;
+	};
+	D24C025809B9F40200155290 = {
+		fRef = D25BF4A7098BA7E400D059FD;
+		isa = PBXTextBookmark;
+		name = "ExampleEditor.h: 31";
+		rLen = 0;
+		rLoc = 1497;
+		rType = 0;
+		vrLen = 655;
+		vrLoc = 1345;
+	};
+	D24C028309B9F5DF00155290 = {
+		fRef = D25BF4A6098BA7E400D059FD;
+		isa = PBXTextBookmark;
+		name = "ExampleEditor.cpp: 25";
+		rLen = 0;
+		rLoc = 1375;
+		rType = 0;
+		vrLen = 1589;
+		vrLoc = 0;
+	};
+	D24C028809B9F7DE00155290 = {
+		fRef = D25BF4AA098BA7E400D059FD;
+		isa = PBXTextBookmark;
+		name = "VSTGLEditor.h: 360";
+		rLen = 0;
+		rLoc = 14467;
+		rType = 0;
+		vrLen = 1230;
+		vrLoc = 13245;
+	};
+	D24C028D09B9F7DE00155290 = {
+		fRef = D25BF4AE098BA7E400D059FD;
+		isa = PBXTextBookmark;
+		name = "VstPlugin.h: 32";
+		rLen = 0;
+		rLoc = 1518;
+		rType = 0;
+		vrLen = 951;
+		vrLoc = 930;
+	};
+	D24C028E09B9F7DE00155290 = {
+		fRef = D25BF4A9098BA7E400D059FD;
+		isa = PBXTextBookmark;
+		name = "\tclassId = CFStringCreateWithCString(NULL, tempstr, 0);\n\n";
+		rLen = 57;
+		rLoc = 4707;
+		rType = 0;
+		vrLen = 631;
+		vrLoc = 4337;
+	};
+	D24C53C2098BC3180088BB60 = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = vstgui.cpp;
+		path = "/Users/niallmoody/Programming/VST Plugins/vstsdk2.4/vstgui.sf/vstgui/vstgui.cpp";
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	D24C53C3098BC3180088BB60 = {
+		fRef = D25BF4A9098BA7E400D059FD;
+		isa = PBXTextBookmark;
+		name = "VSTGLEditor.cpp: 229";
+		rLen = 0;
+		rLoc = 7612;
+		rType = 0;
+		vrLen = 1095;
+		vrLoc = 7736;
+	};
+	D24C53CA098BC3970088BB60 = {
+		fRef = D24C53C2098BC3180088BB60;
+		isa = PBXTextBookmark;
+		name = "vstgui.cpp: 576";
+		rLen = 0;
+		rLoc = 18467;
+		rType = 0;
+		vrLen = 1147;
+		vrLoc = 18390;
+	};
+	D24C53D5098BC4300088BB60 = {
+		fRef = D25BF499098BA7C000D059FD;
+		isa = PBXTextBookmark;
+		name = "\tvirtual bool getRect (ERect** rect)\t{ *rect = 0; return false; }\t\t///< Query editor size as #ERect\n\n";
+		rLen = 101;
+		rLoc = 1312;
+		rType = 0;
+		vrLen = 1950;
+		vrLoc = 985;
+	};
+	D24C5409098BCC0D0088BB60 = {
+		fRef = D25BF49E098BA7C000D059FD;
+		isa = PBXTextBookmark;
+		name = "vstplugmain.cpp: 65";
+		rLen = 0;
+		rLoc = 2126;
+		rType = 0;
+		vrLen = 1104;
+		vrLoc = 183;
+	};
+	D24C5458098BD2DC0088BB60 = {
+		fRef = D25BF4AB098BA7E400D059FD;
+		isa = PBXTextBookmark;
+		name = "VSTGLTimer.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1577;
+		vrLoc = 0;
+	};
+	D24D0DCC098EA901007DDB00 = {
+		fRef = D25BF4AC098BA7E400D059FD;
+		isa = PBXTextBookmark;
+		name = "VSTGLTimer.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1482;
+		vrLoc = 0;
+	};
+	D24D0DF6098EAEB5007DDB00 = {
+		fRef = D25BF499098BA7C000D059FD;
+		isa = PBXTextBookmark;
+		name = "\tvirtual bool getRect (ERect** rect)\t{ *rect = 0; return false; }\t\t///< Query editor size as #ERect\n\n";
+		rLen = 101;
+		rLoc = 1312;
+		rType = 0;
+		vrLen = 1904;
+		vrLoc = 1211;
+	};
+	D24FC76A09A8ACF600B7BDA7 = {
+		fRef = D24FC76B09A8ACF600B7BDA7;
+		isa = PBXTextBookmark;
+		name = "HIViewGetRoot(WindowRef inWindow)                             AVAILABLE_MAC_OS_X_VERSION_10_2_AND_LATER;\n";
+		rLen = 105;
+		rLoc = 10072;
+		rType = 0;
+		vrLen = 406;
+		vrLoc = 9820;
+	};
+	D24FC76B09A8ACF600B7BDA7 = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = HIView.h;
+		path = /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/HIView.h;
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	D24FC76D09A8ACF600B7BDA7 = {
+		fRef = D25BF4A9098BA7E400D059FD;
+		isa = PBXTextBookmark;
+		name = "VSTGLEditor.cpp: 1217";
+		rLen = 0;
+		rLoc = 30055;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 30179;
+	};
+	D24FC76E09A8ACF600B7BDA7 = {
+		fRef = D24FC76F09A8ACF600B7BDA7;
+		isa = PBXTextBookmark;
+		name = "HIViewGetRoot(WindowRef inWindow)                             AVAILABLE_MAC_OS_X_VERSION_10_2_AND_LATER;\n";
+		rLen = 105;
+		rLoc = 10072;
+		rType = 0;
+		vrLen = 406;
+		vrLoc = 9820;
+	};
+	D24FC76F09A8ACF600B7BDA7 = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = HIView.h;
+		path = /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/Headers/HIView.h;
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	D24FC7B609A8B3CA00B7BDA7 = {
+		fRef = D25BF49A098BA7C000D059FD;
+		isa = PBXTextBookmark;
+		name = "audioeffect.cpp: ~AudioEffect";
+		rLen = 0;
+		rLoc = 5252;
+		rType = 0;
+		vrLen = 933;
+		vrLoc = 4874;
+	};
+	D24FC7B909A8B3CA00B7BDA7 = {
+		fRef = D25BF49A098BA7C000D059FD;
+		isa = PBXTextBookmark;
+		name = "audioeffect.cpp: ~AudioEffect";
+		rLen = 0;
+		rLoc = 5252;
+		rType = 0;
+		vrLen = 933;
+		vrLoc = 4874;
+	};
+	D24FC7E509A8B80B00B7BDA7 = {
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		configStateDict = {
+		};
+		cppStopOnCatchEnabled = 0;
+		cppStopOnThrowEnabled = 0;
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		isa = PBXExecutable;
+		launchableReference = D24FC7E609A8B80B00B7BDA7;
+		libgmallocEnabled = 0;
+		name = Bidule;
+		savedGlobals = {
+		};
+		shlibInfoDictList = (
+		);
+		sourceDirectories = (
+		);
+	};
+	D24FC7E609A8B80B00B7BDA7 = {
+		isa = PBXFileReference;
+		lastKnownFileType = wrapper.application;
+		name = "Plogue Bidule.app";
+		path = "/Users/niallmoody/Appplications/Plogue Bidule 0.91/Plogue Bidule.app";
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	D253AE4709ACF75700CFA583 = {
+		fRef = D24C53C2098BC3180088BB60;
+		isa = PBXTextBookmark;
+		name = "vstgui.cpp: 9399";
+		rLen = 0;
+		rLoc = 252101;
+		rType = 0;
+		vrLen = 1126;
+		vrLoc = 253177;
+	};
+	D25BF48A098BA69400D059FD = {
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		isa = PBXSourceControlManager;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	D25BF48B098BA69400D059FD = {
+		indexTemplatePath = "";
+		isa = PBXCodeSenseManager;
+		usesDefaults = 1;
+		wantsCodeCompletion = 1;
+		wantsCodeCompletionAutoSuggestions = 0;
+		wantsCodeCompletionCaseSensitivity = 1;
+		wantsCodeCompletionListAlways = 1;
+		wantsCodeCompletionOnlyMatchingItems = 1;
+		wantsCodeCompletionParametersIncluded = 1;
+		wantsCodeCompletionPlaceholdersInserted = 1;
+		wantsCodeCompletionTabCompletes = 1;
+		wantsIndex = 1;
+	};
+	D25BF48E098BA76B00D059FD = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {572, 14}}";
+			sepNavSelRange = "{8, 0}";
+			sepNavVisRect = "{{0, 0}, {0, 0}}";
+			sepNavWindowFrame = "{{15, 239}, {750, 502}}";
+		};
+	};
+	D25BF499098BA7C000D059FD = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1088, 867}}";
+			sepNavSelRange = "{1312, 101}";
+			sepNavVisRect = "{{0, 437}, {479, 430}}";
+		};
+	};
+	D25BF49A098BA7C000D059FD = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {860, 10107}}";
+			sepNavSelRange = "{5252, 0}";
+			sepNavVisRect = "{{0, 1710}, {479, 430}}";
+		};
+	};
+	D25BF49B098BA7C000D059FD = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1598, 2491}}";
+			sepNavSelRange = "{2569, 167}";
+			sepNavVisRect = "{{0, 592}, {776, 175}}";
+		};
+	};
+	D25BF49C098BA7C000D059FD = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1286, 21363}}";
+			sepNavSelRange = "{10588, 20}";
+			sepNavVisRect = "{{0, 4189}, {572, 429}}";
+		};
+	};
+	D25BF49D098BA7C000D059FD = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1562, 3541}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 5}, {572, 429}}";
+		};
+	};
+	D25BF49E098BA7C000D059FD = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {650, 909}}";
+			sepNavSelRange = "{2126, 0}";
+			sepNavVisRect = "{{0, 67}, {479, 430}}";
+		};
+	};
+	D25BF4A6098BA7E400D059FD = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {488, 1833}}";
+			sepNavSelRange = "{1375, 0}";
+			sepNavVisRect = "{{0, 0}, {482, 431}}";
+			sepNavWindowFrame = "{{15, 239}, {750, 502}}";
+		};
+	};
+	D25BF4A7098BA7E400D059FD = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {488, 797}}";
+			sepNavSelRange = "{1497, 0}";
+			sepNavVisRect = "{{0, 324}, {482, 431}}";
+		};
+	};
+	D25BF4A9098BA7E400D059FD = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1052, 14657}}";
+			sepNavSelRange = "{4707, 57}";
+			sepNavVisRect = "{{0, 1568}, {776, 175}}";
+		};
+	};
+	D25BF4AA098BA7E400D059FD = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {758, 5095}}";
+			sepNavSelRange = "{14467, 0}";
+			sepNavVisRect = "{{0, 4636}, {482, 431}}";
+			sepNavWindowFrame = "{{38, 218}, {750, 502}}";
+		};
+	};
+	D25BF4AB098BA7E400D059FD = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {488, 2309}}";
+			sepNavSelRange = "{160, 0}";
+			sepNavVisRect = "{{0, 1878}, {482, 431}}";
+		};
+	};
+	D25BF4AC098BA7E400D059FD = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {566, 1945}}";
+			sepNavSelRange = "{1495, 0}";
+			sepNavVisRect = "{{0, 930}, {482, 431}}";
+		};
+	};
+	D25BF4AD098BA7E400D059FD = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {752, 8049}}";
+			sepNavSelRange = "{153, 0}";
+			sepNavVisRect = "{{0, 0}, {482, 431}}";
+		};
+	};
+	D25BF4AE098BA7E400D059FD = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {530, 3401}}";
+			sepNavSelRange = "{1518, 0}";
+			sepNavVisRect = "{{0, 224}, {482, 431}}";
+		};
+	};
+	D25BF4B7098BA7FE00D059FD = {
+		fRef = D25BF48E098BA76B00D059FD;
+		isa = PBXTextBookmark;
+		name = "PkgInfo: 1";
+		rLen = 0;
+		rLoc = 8;
+		rType = 0;
+		vrLen = 8;
+		vrLoc = 0;
+	};
+	D25BF4B9098BA7FE00D059FD = {
+		fRef = D25BF48E098BA76B00D059FD;
+		isa = PBXTextBookmark;
+		name = "PkgInfo: 1";
+		rLen = 0;
+		rLoc = 8;
+		rType = 0;
+		vrLen = 8;
+		vrLoc = 0;
+	};
+	D25BF4E2098BA93200D059FD = {
+		fRef = D25BF4AE098BA7E400D059FD;
+		isa = PBXTextBookmark;
+		name = "VstPlugin.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1161;
+		vrLoc = 479;
+	};
+	D25BF4E5098BA93200D059FD = {
+		fRef = D25BF49E098BA7C000D059FD;
+		isa = PBXTextBookmark;
+		name = "vstplugmain.cpp: 65";
+		rLen = 0;
+		rLoc = 2126;
+		rType = 0;
+		vrLen = 1094;
+		vrLoc = 253;
+	};
+	D25BF4E6098BA93200D059FD = {
+		fRef = D25BF4E7098BA93200D059FD;
+		isa = PBXTextBookmark;
+		name = public.sdk/source/vst2.x/;
+		rLen = 25;
+		rLoc = 580;
+		rType = 0;
+		vrLen = 1143;
+		vrLoc = 0;
+	};
+	D25BF4E7098BA93200D059FD = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = again.h;
+		path = "/Users/niallmoody/Programming/VST Plugins/vstsdk2.4/public.sdk/samples/vst2.x/again/source/again.h";
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	D25BF4E8098BA93200D059FD = {
+		fRef = D25BF4A6098BA7E400D059FD;
+		isa = PBXTextBookmark;
+		name = "ExampleEditor.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1590;
+		vrLoc = 0;
+	};
+	D25BF4E9098BA93200D059FD = {
+		fRef = D25BF4A7098BA7E400D059FD;
+		isa = PBXTextBookmark;
+		name = "ExampleEditor.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1516;
+		vrLoc = 0;
+	};
+	D25BF506098BAB5500D059FD = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = again.cpp;
+		path = "/Users/niallmoody/Programming/VST Plugins/vstsdk2.4/public.sdk/samples/vst2.x/again/source/again.cpp";
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	D25BF509098BAB5500D059FD = {
+		fRef = D25BF4AA098BA7E400D059FD;
+		isa = PBXTextBookmark;
+		name = public.sdk/source/vst2.x/;
+		rLen = 0;
+		rLoc = 1441;
+		rType = 0;
+		vrLen = 1209;
+		vrLoc = 979;
+	};
+	D25BF50A098BAB5500D059FD = {
+		fRef = D25BF4AD098BA7E400D059FD;
+		isa = PBXTextBookmark;
+		name = "VstPlugin.cpp: 78";
+		rLen = 0;
+		rLoc = 2759;
+		rType = 0;
+		vrLen = 707;
+		vrLoc = 1997;
+	};
+	D25BF50B098BAB5500D059FD = {
+		fRef = D25BF50C098BAB5500D059FD;
+		isa = PBXTextBookmark;
+		name = "AudioEffect* createEffectInstance (audioMasterCallback audioMaster)\n\n{\n\n\treturn new AGain (audioMaster);\n\n}";
+		rLen = 107;
+		rLoc = 661;
+		rType = 0;
+		vrLen = 1261;
+		vrLoc = 0;
+	};
+	D25BF50C098BAB5500D059FD = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = again.cpp;
+		path = "/Users/niallmoody/Programming/VST Plugins/vstsdk2.4/public.sdk/samples/vst2.x/again/source/again.cpp";
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	D25BF51C098BACF700D059FD = {
+		fRef = D25BF4E7098BA93200D059FD;
+		isa = PBXTextBookmark;
+		name = "again.h: 28";
+		rLen = 0;
+		rLoc = 1040;
+		rType = 0;
+		vrLen = 950;
+		vrLoc = 769;
+	};
+	D25BF51D098BACF700D059FD = {
+		fRef = D25BF506098BAB5500D059FD;
+		isa = PBXTextBookmark;
+		name = "AudioEffect* createEffectInstance (audioMasterCallback audioMaster)\n\n{\n\n\treturn new AGain (audioMaster);\n\n}";
+		rLen = 107;
+		rLoc = 661;
+		rType = 0;
+		vrLen = 912;
+		vrLoc = 3637;
+	};
+	D25BF51E098BACF700D059FD = {
+		fRef = D25BF51F098BACF700D059FD;
+		isa = PBXTextBookmark;
+		name = "(null): 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 798;
+		vrLoc = 0;
+	};
+	D25BF51F098BACF700D059FD = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = adelaymain.cpp;
+		path = "/Users/niallmoody/Programming/VST Plugins/vstsdk2.4/public.sdk/samples/vst2.x/adelay/adelaymain.cpp";
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	D25BF520098BACF700D059FD = {
+		fRef = D25BF521098BACF700D059FD;
+		isa = PBXTextBookmark;
+		name = "(null): 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 783;
+		vrLoc = 1510;
+	};
+	D25BF521098BACF700D059FD = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = adelay.h;
+		path = "/Users/niallmoody/Programming/VST Plugins/vstsdk2.4/public.sdk/samples/vst2.x/adelay/adelay.h";
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	D25BF522098BACF700D059FD = {
+		fRef = D25BF523098BACF700D059FD;
+		isa = PBXTextBookmark;
+		name = "(null): 116";
+		rLen = 0;
+		rLoc = 3037;
+		rType = 0;
+		vrLen = 707;
+		vrLoc = 5067;
+	};
+	D25BF523098BACF700D059FD = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = adelay.cpp;
+		path = "/Users/niallmoody/Programming/VST Plugins/vstsdk2.4/public.sdk/samples/vst2.x/adelay/adelay.cpp";
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	D25BF52C098BACF700D059FD = {
+		fRef = D25BF52D098BACF700D059FD;
+		isa = PBXTextBookmark;
+		name = "(null): 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 798;
+		vrLoc = 0;
+	};
+	D25BF52D098BACF700D059FD = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = adelaymain.cpp;
+		path = "/Users/niallmoody/Programming/VST Plugins/vstsdk2.4/public.sdk/samples/vst2.x/adelay/adelaymain.cpp";
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	D25BF52E098BACF700D059FD = {
+		fRef = D25BF52F098BACF700D059FD;
+		isa = PBXTextBookmark;
+		name = "(null): 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 754;
+		vrLoc = 0;
+	};
+	D25BF52F098BACF700D059FD = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = adelay.h;
+		path = "/Users/niallmoody/Programming/VST Plugins/vstsdk2.4/public.sdk/samples/vst2.x/adelay/adelay.h";
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+	D25BF530098BACF700D059FD = {
+		fRef = D25BF531098BACF700D059FD;
+		isa = PBXTextBookmark;
+		name = "(null): 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 927;
+		vrLoc = 0;
+	};
+	D25BF531098BACF700D059FD = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = adelay.cpp;
+		path = "/Users/niallmoody/Programming/VST Plugins/vstsdk2.4/public.sdk/samples/vst2.x/adelay/adelay.cpp";
+		refType = 0;
+		sourceTree = "<absolute>";
+	};
+}
